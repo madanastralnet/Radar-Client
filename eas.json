@@ -14,7 +14,11 @@
     "apk": {
       "android": {
         "buildType": "apk"
-      }
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "http://192.168.29.28:9001"
+      },
+      "channel": "apk"
     }
   },
   "submit": {

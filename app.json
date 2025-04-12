@@ -1,56 +1,27 @@
 {
   "expo": {
-    "name": "SanAura",
-    "slug": "SanAuraApp",
+    "name": "Sentinel",
+    "slug": "sentinel-radar",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.sanaura.app"
+      "bundleIdentifier": "com.sanaura.sentinel"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.sanaura.app",
-      "permissions": [
-        "VIBRATE",
-        "RECEIVE_BOOT_COMPLETED"
-      ],
-      "usesCleartextTraffic": true
+      "package": "com.sanaura.sentinel",
+      "newArchEnabled": true
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/notification-icon.png",
-          "color": "#ffffff",
-          "sounds": [
-            "./assets/alarm.mp3"
-          ]
-        }
-      ]
-    ],
     "extra": {
       "eas": {
-        "projectId": "83cbd563-a399-43d3-b0ad-03dab5d038c3"
+        "projectId": "6032a6fb-c83f-42e2-a2c8-50b8db9ccb3e"
       }
-    },
-    "owner": "madan.raja"
+    }
   }
 }
